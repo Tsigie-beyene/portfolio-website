@@ -22,22 +22,22 @@ import AwardFillIcon from 'remixicon-react/AwardFillIcon'
 export const aboutData = [
   {
     title: 'Github Repos',
-    amount: 348,
+    amount: 34,
     icon: <GithubFillIcon />,
   },
   {
     title: 'Successful Projects',
-    amount: 227,
+    amount: 22,
     icon: <Projector2LineIcon />,
   },
   {
     title: 'Satisfied clients',
-    amount: 176,
+    amount: 10,
     icon: <GroupLineIcon />,
   },
   {
     title: 'Awards and Recognition',
-    amount: 107,
+    amount: 7,
     icon: <AwardFillIcon />,
   },
 ]
@@ -49,8 +49,7 @@ export const downloadIcon = <DownloadLineIcon />
 export const arrowLeftIcon = <ArrowLeftSFillIcon />
 
 export const aboutText =
-  " Hi, I'm Nick, a web developer & designer. I blend the technical  skills of web development with the creative aspects of web design. I code in HTML, CSS, JavaScript, React, NextJS... to build functional and responsive websites, while also using design tools like Photoshop and Figma to create visually appealing and user-friendly  interfaces. My role allows me to ensure that websites not only work well but also look great and provide an excellent user experience."
-// End of AboutMe icons
+   "Hi, I'm Tsigie, a software engineer with a passion for both frontend and backend development. I work with HTML, CSS, JavaScript, React, and Next.js... to build responsive, user-friendly interfaces, while also leveraging backend technologies like PostgreSQL, SQL Server, and AWS to create efficient and scalable systems. My role allows me to connect the visual side of web development with the logic and structure behind the scenes—building applications that not only look great but also perform reliably and solve real-world problems."
 
 // Skills
 export const skillsData = [
