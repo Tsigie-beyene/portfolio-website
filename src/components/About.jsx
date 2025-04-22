@@ -22,8 +22,13 @@ export default function About() {
         </a>
       </div>
       </div>
-        <div>
-          <Achievements/>
+        <div className="mt-20 w-full flex flex-wrap items-center justify-between gap-x-7 gap-y-10" >
+      
+          {aboutData.map((item,i)=>( 
+                <Achievements key={i} title={item.title} amount={item.amount}> 
+                   {item.icon}       
+                 </Achievements>
+          ))}
         </div>
       </div>
   )
