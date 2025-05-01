@@ -45,7 +45,7 @@ export default function Experiance () {
           className=" relative flex flex-col gap-y-3 rounded-md border border-red-400 bg-white p-4 tracking-wide sm:text-sm">
             <h1 className="text-xl sm:text-lg font-light text-gray-700">{data.title} </h1>
             <p className="text-gray-800" >
-              <span className="blcok font-light">Education: </span>
+              <span className="block font-light">Education: </span>
               <span className="block pl-2 font-extralight ">{data.education} </span>
             </p>  
             <div className="text-gray-800">

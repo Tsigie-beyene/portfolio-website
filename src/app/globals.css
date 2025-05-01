@@ -1,10 +1,19 @@
 @import "tailwindcss";
 
 @theme{
-    --breakpoint-*: initial;
+    /* --breakpoint-*: initial; */
     --breakpoint-xl:"1400px";
     --breakpoint-lg:"1150px";
     --breakpoint-md:"767px";
     --breakpoint-sm:"639px";
-    --color-twitter-blue: #1DA1F2;
 }
+
+/* @import "tailwindcss";
+
+/* Define breakpoints */
+/* @theme {
+    --breakpoint-xl: 1400px;
+    --breakpoint-lg: 1150px;
+    --breakpoint-md: 767px;
+    --breakpoint-sm: 639px;
+} */ 
