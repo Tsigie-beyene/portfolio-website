@@ -31,17 +31,17 @@ function Projects() {
         <div className="flex flex-wrap items-center justify-between gap-4 py-10">
             { projectsButton
             .map((text,i)=>(
-               <motion.button 
+             <motion.button 
                key={i}
-             initial={{opacity: i===0 ? 1:.5 ,
-                scale:i===0 ? 1.2 : 1}}
+               initial={{opacity: i===0 ? 1:.5 ,
+               scale:i===0 ? 1.2 : 1}}
                ref={(el)=>buttonRef.current.push(el)}
                onClick={() => {
                  setTech(text) 
                  setIndex(i)
                 }}
                className="border border-yellow-500 rounded-xl px-2 py-1 
-               text-sm font-light tracking-wider text-gray-400">
+               text-sm font-light tracking-wider text-gray-400 cursor-pointer">
                   {text}
               </motion.button>
             ))}
