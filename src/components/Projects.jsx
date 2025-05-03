@@ -54,9 +54,10 @@ function Projects() {
                 ))
             })
             .map((data,i)=>(
-                <div key ={`id-${i}`}>
+                <motion.div key ={`id-${i}`}
+                layout>
                 <Project  data={data} index={i}/>
-                </div>
+                </motion.div>
             ))}   
 
         </div>
