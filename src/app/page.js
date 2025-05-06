@@ -6,6 +6,7 @@ import Experiance from '@/components/Experiance';
 import Skill from '@/components/Skill';
 import Reviews from '@/components/Reviews';
 import Projects from '@/components/Projects';
+import Contact from '@/components/Contact';
 
 export default function Home() {
   return  <div > 
@@ -15,7 +16,7 @@ export default function Home() {
     <Skill/>
     <Reviews/>
     <Projects/>
-    {/* <Contact/> */}
+    <Contact/>
     {/* <Footer/> */} 
     
     </div>
