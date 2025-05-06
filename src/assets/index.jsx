@@ -319,6 +319,7 @@ export const navbarData = [
   },
 ]
 
+ // Questions
 export const questions = [
   {
     question: 'How much do you charge for a website?',
@@ -378,7 +379,7 @@ export const questions = [
 ]
 
 import ArrowDropDownLineIcon from 'remixicon-react/ArrowDropDownLineIcon'
-export const QuestionArrow = <ArrowDropDownLineIcon />
+export const questionArrow = <ArrowDropDownLineIcon />
 
 // Reviews
 

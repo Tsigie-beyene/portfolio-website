@@ -7,6 +7,7 @@ import Skill from '@/components/Skill';
 import Reviews from '@/components/Reviews';
 import Projects from '@/components/Projects';
 import Contact from '@/components/Contact';
+import Questions from '@/components/Questions';
 
 export default function Home() {
   return  <div > 
@@ -17,6 +18,7 @@ export default function Home() {
     <Reviews/>
     <Projects/>
     <Contact/>
+    <Questions/>
     {/* <Footer/> */} 
     
     </div>
