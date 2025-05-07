@@ -1,8 +1,7 @@
-
- "use client"
+"use client"
  import { questionArrow } from "@/assets"
 
-export default function Question(data,index) {
+export default function Question({data,index}) {
   return (
     <li className="border border-yellow-500 p-1 rounded-lg">
         <h1 className="flex items-center border-b text-xl font-extralight text-yellow-600
