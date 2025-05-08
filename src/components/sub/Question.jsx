@@ -1,21 +1,60 @@
 
  "use client"
+ import { useState } from "react"
  import { questionArrow } from "@/assets"
+ import {motion} from "framer-motion"
 
-export default function Question(data,index) {
+export default function Question({data,index}) {
+  const [show,setShow] = useState(false)
+
+  const variants = {
+    visible:(i)=>({
+      opacity:1,
+      x:0,
+      transition:{
+        delay:i*0.07,  
+      }, 
+    }),
+    hidden:{
+      opacity:0,
+      x:-30,
+    }
+  }
   return (
-    <li className="border border-yellow-500 p-1 rounded-lg">
-        <h1 className="flex items-center border-b text-xl font-extralight text-yellow-600
-        tracking-wide cursor-pointer">
-            <span>{questionArrow}</span>
+    <motion.li 
+    custom={index}
+    initial="hidden"
+    whileInView="visible"
+    viewport={{margin:'50px',once:true}}
+    variants={variants}
+    className="border border-yellow-500 p-1 rounded-lg">
+        <h1 onClick={()=>setShow(!show)}
+         className={`flex items-center  text-xl font-extralight text-gray-800 hover:text-yellow-600
+         tracking-wide cursor-pointer ${show &&" border-b text-yellow-600"}`}>
+            <motion.span
+            animate={{rotate: show ? 180 : 0}}
+            
+            >{questionArrow}</motion.span>
             <span>{data.question}</span>
 
         </h1>
-        <p className="pl-8 text-lg font-extralight tracking-wide text-gray-900
+        <motion.p 
+        initial={{scaleY:0, height:0,opacity:0}}
+        animate={{
+            scaleY: show ? 1 : 0,
+            height: show ? "auto" : 0,
+            opacity: show ? 1 : 0,
+            
+        }}
+        transition={{duration:.1, 
+          type:"spring",
+           stiffness:show ? 250 : 50, 
+           opacity:{delay:show ? 0.2 : 0}}}
+        className="pl-8 text-lg font-extralight tracking-wide text-gray-900
         first-letter:pl-3">
-            {data.answer}
-        </p>
-    </li>
+            {data.answer} 
+        </motion.p>
+    </motion.li>
   )
 }
 
