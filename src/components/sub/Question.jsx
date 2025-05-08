@@ -1,10 +1,15 @@
+<<<<<<< HEAD
 
  "use client"
  import { useState } from "react"
+=======
+"use client"
+>>>>>>> b0513a12f0f971f227bc09878b060e3f72761233
  import { questionArrow } from "@/assets"
  import {motion} from "framer-motion"
 
 export default function Question({data,index}) {
+<<<<<<< HEAD
   const [show,setShow] = useState(false)
 
   const variants = {
@@ -20,6 +25,8 @@ export default function Question({data,index}) {
       x:-30,
     }
   }
+=======
+>>>>>>> b0513a12f0f971f227bc09878b060e3f72761233
   return (
     <motion.li 
     custom={index}
