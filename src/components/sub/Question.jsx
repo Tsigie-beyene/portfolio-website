@@ -1,32 +1,26 @@
-<<<<<<< HEAD
 
  "use client"
- import { useState } from "react"
-=======
-"use client"
->>>>>>> b0513a12f0f971f227bc09878b060e3f72761233
- import { questionArrow } from "@/assets"
- import {motion} from "framer-motion"
+import { useState } from "react"
+import { questionArrow } from "@/assets"
+import { motion } from "framer-motion"
+
 
 export default function Question({data,index}) {
-<<<<<<< HEAD
-  const [show,setShow] = useState(false)
+  const [show,setShow] =useState(false)
 
-  const variants = {
+  const variants={
     visible:(i)=>({
       opacity:1,
       x:0,
       transition:{
-        delay:i*0.07,  
-      }, 
+        delay:i * 0.07,
+      },
     }),
     hidden:{
       opacity:0,
       x:-30,
-    }
+    },
   }
-=======
->>>>>>> b0513a12f0f971f227bc09878b060e3f72761233
   return (
     <motion.li 
     custom={index}
