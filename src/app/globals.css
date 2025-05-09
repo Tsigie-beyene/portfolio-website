@@ -8,6 +8,25 @@
     --breakpoint-sm:"639px";
 }
 
+html{
+    scroll-behavior: smooth !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @import "tailwindcss";
 
 /* Define breakpoints */

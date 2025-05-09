@@ -29,7 +29,7 @@ export default function Reviews() {
     },[index]) 
 
   return (
-    <div className="my-20 px-96">
+    <div id="reviews" className="my-20 px-96">
         <Heading text={'Reviews'}/>
         <div className="flex flex-col items-center justify-center">
             <motion.div initial={{opacity:0, x:-200}}

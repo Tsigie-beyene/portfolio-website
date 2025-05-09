@@ -5,7 +5,7 @@ import { questions} from "@/assets"
 
 export default function Questions() {
   return (
-    <div className="py-20 px-80">
+    <div id="questions" className="py-20 px-80">
         <Heading text={'Questions & Answers'}/>
         <div>
             <ul className=" flex flex-col gap-y-3">

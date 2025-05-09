@@ -35,7 +35,9 @@ export default function Hero() {
   const rotateX=useTransform(ySpring,[0,innerHeight],[10,-50])
 
   return (  
-    <div className="h-screen grid place-items-center" 
+    <div 
+    id="home"
+    className="h-screen grid place-items-center" 
     onMouseMove={handleMouseMove}
     onMouseEnter={handleMouseEnter}
     >
@@ -73,7 +75,7 @@ export default function Hero() {
          <a href="#" key={i} className="rounded-lg hover:bg-red-400 hover:text-white transition-colors">
            {icon}
             </a>
-             ))}
+             ))} 
 
          </div>
          <a href="#" className="mx-auto mt-7 block w-max rounded-lg bg-red-400 px-3 py-1 font-light capitalize tracking-wider text-white hover:bg-red-500 transition-colors"
