@@ -127,11 +127,7 @@ export const skillsData = [
   },
 ]
 
-// import { PiCopyrightThin } from 'react-icons/pi'
-import CopyrightLineIcon from 'remixicon-react/CopyrightLineIcon'
 
-// export const copyRightIcon = <PiCopyrightThin />
-export const copyRightIcon = <CopyrightLineIcon />
 // Experience
 export const experienceData = [
   {
@@ -261,6 +257,12 @@ export const projectsButton = [
   'ThreeJS',
 ]
 
+// import { PiCopyrightThin } from 'react-icons/pi'
+import CopyrightLineIcon from 'remixicon-react/CopyrightLineIcon'
+
+// export const copyRightIcon = <PiCopyrightThin />
+export const copyRightIcon = <CopyrightLineIcon />
+
 import Home5LineIcon from 'remixicon-react/Home5LineIcon'
 import UserLineIcon from 'remixicon-react/UserLineIcon'
 import HistoryLineIcon from 'remixicon-react/HistoryLineIcon'
@@ -302,11 +304,11 @@ export const navbarData = [
     name: 'Projects',
     icon: <ProjectorLineIcon />,
   },
-  {
-    id: 'pricing',
-    name: 'Pricing',
-    icon: <PriceTag3LineIcon />,
-  },
+  // {
+  //   id: 'pricing',
+  //   name: 'Pricing',
+  //   icon: <PriceTag3LineIcon />,
+  // },
   {
     id: 'contact',
     name: 'Contact',
