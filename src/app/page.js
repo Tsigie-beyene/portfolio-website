@@ -8,9 +8,13 @@ import Reviews from '@/components/Reviews';
 import Projects from '@/components/Projects';
 import Contact from '@/components/Contact';
 import Questions from '@/components/Questions';
+import Navbar from '@/components/Navbar';
 
 export default function Home() {
-  return  <div > 
+  return (
+    <>
+   <Navbar/> 
+    <div > 
     <Hero />
     <About /> 
     <Experiance/>
@@ -19,8 +23,9 @@ export default function Home() {
     <Projects/>
     <Contact/>
     <Questions/>
-    {/* <Footer/> */} 
     
     </div>
-  
+    </>
+ 
+  )
 }
