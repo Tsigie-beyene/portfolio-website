@@ -42,4 +42,4 @@ follow steps from the beggining to the end
 
 ```  install framer mmotion```
 
-
+``` npm install reactjs-localstorage ```

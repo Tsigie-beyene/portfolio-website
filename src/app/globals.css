@@ -6,6 +6,12 @@
     --breakpoint-lg:"1150px";
     --breakpoint-md:"767px";
     --breakpoint-sm:"639px";
+
+    /* Define colors for light and dark mode */
+    --color-bg-light: #ffffff;
+    --color-bg-dark: #1a1a1a;
+    --color-text-light: #000000;
+    --color-text-dark: #ffffff;
 }
 
 html{
@@ -13,3 +19,10 @@ html{
 }
 
 
+/* Dark mode styles */
+@custom-variant dark (&:where(.dark, .dark *)); /* Enables dark mode via class */
+
+.dark {
+    --color-bg-light: var(--color-bg-dark);
+    --color-text-light: var(--color-text-dark);
+}

@@ -67,8 +67,8 @@ export default function Hero() {
                  transition={{opacity:{delay:0.4}}}
                  > Hi </motion.span>
             </motion.div>
-            <h1 className=" text-center text-3xl  font-bold tracking-wider text-gray-500">My Name is Tsigie Beyene &</h1>
-            <p className=" text-lg tracking-wider text-gray-700">I like learning and building every day😊</p>
+            <h1 className=" text-center text-3xl  font-bold tracking-wider text-gray-500 dark:text-white transition-colors">My Name is Tsigie Beyene &</h1>
+            <p className=" text-lg tracking-wider text-gray-700 dark:text-gray-200 transition-colors">I like learning and building every day😊</p>
          </div>
          <div className="mt-8 flex justify-center gap-x-10 text-3xl text-yellow-600">
          {heroIcons.map((icon, i) => (

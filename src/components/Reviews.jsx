@@ -42,7 +42,7 @@ export default function Reviews() {
                      <motion.div
                      initial={{x:'100%'}}
                      key={i} className="absolute inset-0 flex flex-col items-center justify-center gap-y-7
-                     lg:gap-y-4 border border-yellow-500 bg-zinc-50 p-14 lg:p-5 rounded-xl"
+                     lg:gap-y-4 border border-yellow-500 bg-zinc-50 p-14 lg:p-5 rounded-xl dark:bg-zinc-700 transition-colors"
                      ref={(el) => (slides.current.push(el))}
                      >
                          <Image className="w-[130px] aspect-square rounded-full border border-yellow-500 p-4 *
@@ -56,7 +56,7 @@ export default function Reviews() {
                             {review.name}
                             </h1>
                          <p className=" text-lg md:text-sm text-center tracking-wider text-gray-600
-                         first-letter:pl-2">
+                         first-letter:pl-2 dark:text-white transition-colors">
                             {review.comment}
                          </p>
                          <div className="flex flex-col items-center justify-center gap-y-2">
