@@ -22,7 +22,7 @@ const Skill = () => {
     },
   }
   return (
-    <div id="skills" className="min-h-screen flex flex-col items-center justify-center gap-y-20 px-70">
+    <div id="skills" className="min-h-screen flex flex-col items-center justify-center gap-y-20 ">
         <Heading text={'Skills & Tools'}/>
         <div className="w-full flex justify-between flex-wrap gap-x-8 gap-y-10 lg:gap-y-6">
           {skillsData.map((item,i) => (

@@ -21,13 +21,13 @@ export default function Experiance () {
   })
     
   return (
-    <div id="experience" className="py-20 px-80 relative">
+    <div id="experience" className="py-20  relative">
       <Heading text={'Experiance & Education'}/>
       <Image 
       src={"/education.png"} 
       alt= {'Experiance Image'}
       width={400} height={400} 
-      className=" absolute -top-4 right-70 opacity-70 lg:hidden md:hidden sm:hidden"
+      className=" absolute -top-4 right-0 opacity-70 lg:hidden md:hidden sm:hidden"
       />
 
       <div ref={containerRef}  className=" w-full h-full flex flex-col items-center justify-center gap-y-10 lg:gap-y-20">
