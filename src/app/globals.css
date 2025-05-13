@@ -1,11 +1,15 @@
 @import "tailwindcss";
 
 @theme{
-    /* --breakpoint-*: initial; */
-    --breakpoint-xl:"1400px";
-    --breakpoint-lg:"1150px";
+    --breakpoint-*: initial; 
+     --breakpoint-xl:"1400px";
+     --breakpoint-lg:"1150px";
     --breakpoint-md:"767px";
     --breakpoint-sm:"639px";
+    --breakpoint-xs:"393px"; 
+
+
+
 
     /* Define colors for light and dark mode */
     --color-bg-light: #ffffff;
@@ -26,3 +30,33 @@ html{
     --color-bg-light: var(--color-bg-dark);
     --color-text-light: var(--color-text-dark);
 }
+
+/* @media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 640px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1024px) {
+    body {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1280px) {
+    body {
+        font-size: 22px;
+    }
+} */

@@ -30,7 +30,7 @@ export default function Experiance () {
       className=" absolute -top-4 right-0 opacity-70 lg:hidden md:hidden sm:hidden"
       />
 
-      <div ref={containerRef}  className=" w-full h-full flex flex-col items-center justify-center gap-y-10 lg:gap-y-20">
+      <div ref={containerRef}  className=" relative w-full h-full flex flex-col items-center justify-center gap-y-10 lg:gap-y-20">
         {experienceData.map((data,i)=>(
           <div
           key={'id-${i}'}
@@ -42,7 +42,7 @@ export default function Experiance () {
           whileInView={{opacity:1, x:0}}
           viewport={{once:true}}
           transition={{duration:.7,type:'spring',stiffness:50}}
-          className=" relative flex flex-col gap-y-3 rounded-md border border-red-400 bg-white p-4 tracking-wide sm:text-sm dark:bg-zinc-700 transition-colors">
+          className=" relative flex flex-col gap-y-3 rounded-md border border-red-400 bg-white p-4 tracking-wide sm:text-sm dark:bg-zinc-700 transition-colors z-20">
             <h1 className="text-xl sm:text-lg font-light text-gray-700">{data.title} </h1>
             <p className="text-gray-800 dark:text-gray-100" >
               <span className="block font-light">Education: </span>
@@ -60,7 +60,7 @@ export default function Experiance () {
             )}   
              </ul>
             </div>
-               <span className={`absolute top-20  text-red-300 -translate-y-1/2 ${
+               <span className={`absolute top-20  text-red-300 -translate-y-1/2 lg:hidden ${
               i % 2 === 0 ? 'left-full rotate-180' : 'right-full'
                }`}>
                 {arrowLeftIcon}</span>  
