@@ -182,27 +182,27 @@ export const experienceData = [
 
 export const projectsData = [
   {
-    name: 'SparkleGrove.com',
+    name: 'tsigie_beyene.com',
     desc: 'A lifestyle blog featuring DIY crafts, home decor ideas, and inspiration for creating a cozy and stylish living space.',
-    url: '/projects/image-1.jpg',
+    url: '/projects/portfolioWebsite.png',
     tech: ['Figma', 'Photoshop', 'HTML'],
   },
   {
-    name: 'TechTrekker.net',
+    name: 'DigitalFreightAdminDashboard.net',
     desc: 'A technology news and review site covering the latest gadgets, software updates, and trends in the tech industry.',
-    url: '/projects/image-2.jpg',
+    url: '/projects/adminDashboard.jpg',
     tech: ['Figma', 'Photoshop'],
   },
   {
-    name: 'CozyNestHomes.org',
+    name: 'TVShowAdvisor.com',
     desc: 'A resource for homeowners and renters alike, offering tips on interior design, home improvement projects, and sustainable living practices.',
-    url: '/projects/image-3.jpg',
+    url: '/projects/movieshow.png',
     tech: ['HTML', 'CSS', 'JavaScript'],
   },
   {
-    name: 'WanderLuxeTravels.co',
+    name: 'MayaLogistics.com',
     desc: 'A travel website that provides luxury travel guides, destination reviews, and tips for planning unforgettable vacations.',
-    url: '/projects/image-4.jpg',
+    url: '/projects/figmadesighn.png',
     tech: ['HTML', 'CSS', 'JavaScript', 'TailwindCSS'],
   },
   {

@@ -73,7 +73,7 @@ export default function Hero() {
          <div className="mt-8 flex justify-center gap-x-10 text-3xl text-yellow-600">
          {heroIcons.map((icon, i) => (
          <a href="#" key={i} className="rounded-lg hover:bg-red-400 hover:text-white transition-colors">
-           {icon}
+           {icon} 
             </a>
              ))} 
 

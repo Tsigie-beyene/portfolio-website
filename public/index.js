@@ -187,15 +187,15 @@ export const experienceData = [
 
 export const projectsData = [
   {
-    name: 'SparkleGrove.com',
+    name: 'PropertyPulse.com',
     desc: 'A lifestyle blog featuring DIY crafts, home decor ideas, and inspiration for creating a cozy and stylish living space.',
     url: '/projects/image-1.jpg',
     tech: ['Figma', 'Photoshop', 'HTML'],
   },
   {
-    name: 'TechTrekker.net',
+    name: 'TvShowAdvisor.com',
     desc: 'A technology news and review site covering the latest gadgets, software updates, and trends in the tech industry.',
-    url: '/projects/image-2.jpg',
+    url: '/projects/movieshow.png',
     tech: ['Figma', 'Photoshop'],
   },
   {
@@ -241,7 +241,7 @@ export const projectsData = [
     tech: ['ReactJS', 'JavaScript', 'ThreeJS'],
   },
   {
-    name: 'UrbanEatsDelights.com',
+    name: 'ExpenseTracker.com',
     desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
     url: '/projects/image-10.jpg',
     tech: ['NextJS', 'ThreeJS'],
