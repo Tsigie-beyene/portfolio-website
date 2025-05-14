@@ -1,6 +1,7 @@
 "use client";
 import { moonIcon, sunIcon } from "@/assets";
 import { useState, useRef, useEffect } from "react";
+import {motion} from "framer-motion";
 
 const Toggle = ({ children }) => {
   const [darkTheme, setDarkTheme] = useState(false);
@@ -56,11 +57,14 @@ const Toggle = ({ children }) => {
           <button
             onClick={handleToggle}
             className="fixed right-14 sm:right-10 top-10 text-yellow-600 
-              hover:text-yellow-500"
+              hover:text-yellow-500 z-40"
           >
-            <span className="absolute block rounded-full bg-zinc-50 p-1 text-4xl cursor-pointer dark:bg-zinc-800">
-              {darkTheme ? sunIcon : moonIcon}
-            </span>
+            <motion.span animate={{scale:darkTheme? 0: 1}} className="absolute block rounded-full bg-zinc-50 p-1 text-4xl cursor-pointer dark:bg-zinc-800">
+              {moonIcon}
+            </motion.span>
+             <motion.span animate={{scale:darkTheme? 1: 0}}className="absolute block rounded-full bg-zinc-50 p-1 text-4xl cursor-pointer dark:bg-zinc-800">
+              {sunIcon}
+            </motion.span>
           </button>
           {children}
         </div>
