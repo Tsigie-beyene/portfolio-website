@@ -33,7 +33,7 @@ export default function Experiance () {
       <div ref={containerRef}  className=" relative w-full h-full flex flex-col items-center justify-center gap-y-10 lg:gap-y-20">
         {experienceData.map((data,i)=>(
           <div
-          key={'id-${i}'}
+          key={`id-${i}`}
           className={`w-[600px] xl:w-[480px] sm:w-full px-12 sm:px-0 relative -left-[300px] ${i % 2 === 0 ? '-left-[300px] xl:-left-[240px] lg:-left-0' :
             'left-[300px] xl:left-[240px] lg:left-0'
            }`}>

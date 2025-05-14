@@ -9,14 +9,12 @@
     --breakpoint-xs:"393px"; 
 
 
-
-
     /* Define colors for light and dark mode */
     --color-bg-light: #ffffff;
     --color-bg-dark: #1a1a1a;
     --color-text-light: #000000;
     --color-text-dark: #ffffff;
-}
+} 
 
 html{
     scroll-behavior: smooth !important;
@@ -31,32 +29,3 @@ html{
     --color-text-light: var(--color-text-dark);
 }
 
-/* @media (max-width: 480px) {
-    body {
-        font-size: 14px;
-    }
-}
-
-@media (max-width: 640px) {
-    body {
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 768px) {
-    body {
-        font-size: 18px;
-    }
-}
-
-@media (max-width: 1024px) {
-    body {
-        font-size: 20px;
-    }
-}
-
-@media (max-width: 1280px) {
-    body {
-        font-size: 22px;
-    }
-} */
