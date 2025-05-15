@@ -132,53 +132,65 @@ export const skillsData = [
 export const experienceData = [
   {
     year: 1,
-    title: 'Foundation and Basics',
+    title: 'University Foundation',
     education:
-      'High School Diploma: Focus on computer science, mathematics, and art/design courses.',
+      'BSc in Computer Science – University of Gondar: Built a strong foundation in programming, problem-solving, and systems thinking.',
     experience: [
-      'Basic HTML/CSS: Learn through online tutorials and courses.',
-      'Personal Projects: Create simple personal websites or blogs.',
+      'Coursework: Completed core CS courses in algorithms, OOP, DBMS, and networks.',
+      'Frontend Exploration: Started with HTML, CSS, and JavaScript basics.',
+      'Academic Projects: Developed interest in software engineering through class projects.',
     ],
   },
   {
     year: 2,
-    title: 'Advanced Learning and Early Experience',
+    title: 'Skill Growth and Side Projects',
     education:
-      'Associate’s Degree in Web Development or Design: Enroll in a 2-year program covering web development and design principles.',
+      'Self-paced Learning: Combined online learning with university coursework.',
     experience: [
-      'Freelance Work: Take on small freelance projects to build a portfolio.',
-      'Online Courses and Certifications: Learn JavaScript, responsive design, and UX/UI design.',
+      'Project Development: Built personal projects to improve frontend and backend skills.',
+      'Coursework: Took online courses in JavaScript, React, and Git.',
+      'Freelance Exploration: Explored freelance platforms and web trends.',
     ],
   },
   {
     year: 3,
-    title: 'Specialized Education and Real-World Application',
+    title: 'Real-World Application and Projects',
     education:
-      'Online Courses and Bootcamps: Focus on specialized areas like front-end frameworks (React, Angular) and back-end technologies (Node.js).',
+      'Practical Learning: Focused on web technologies and system design.',
     experience: [
-      'Internships: Secure internships with tech companies or design agencies.',
-      'Contribute to Open Source: Collaborate on open-source projects.',
+      'University Projects: Participated in collaborative development and open-source contributions.',
+      'Capstone Project: Delivered a complete logistics or admin system solution.',
+      'Tool Building: Started creating logistics and admin-focused tools.',
+      'Internship: as Software Developer at University of Gondar using React, Node.js, and Express.',
     ],
   },
   {
     year: 4,
-    title: 'Building Expertise and Expanding Skills',
-    education: 'Certifications: Obtain certifications in advanced web technologies.',
+    title: 'ALX Leadership, Professional Experience & Freelancing',
+    education:
+      'Graduation & ALX: Completed BSc and ALX Software Engineering Program.',
     experience: [
-      'Full-Time Position: Work as a junior web developer or designer.',
-      'Portfolio Development: Continuously update your portfolio with professional and personal projects.',
+      'Leadership: Led teams and delivered milestone projects with ALX.',
+      'Project Development: Built admin dashboards and logistics apps using modern frontend stacks.',
+      'Professional Work: Online Banking Technical Officer supporting internal web systems.',
+      'Freelancing: Built websites and dashboards for local and global clients.',
+      'Frontend Focus: Specialized in React, Next.JS, Tailwind CSS, and remote collaboration.',
     ],
   },
   {
     year: 5,
-    title: 'Mastery and Leadership',
-    education: 'Workshops and Conferences: Attend industry events to stay updated.',
+    title:'Mastery, Product Building & Growth',
+    education:
+      'Advanced Training: Taking ALX Backend Pro Developer and Freelance Academy courses.',
     experience: [
-      'Senior Position: Aim for a senior web developer or lead designer role, mentoring junior colleagues.',
-      'Freelance and Consulting: Consider starting a freelance business or consulting practice.',
+      'Portfolio Building: Positioned for freelance and full-time global opportunities.',
+      'Side Project: Built "Property Pulse" – a renting platform focused on Addis Ababa.',
+      'MVP Delivery: Created tools for logistics, finance, and service businesses.',
+      'Mentorship: Guided peers and contributed to team projects.',
     ],
   },
-]
+];
+
 
 export const projectsData = [
   {
@@ -324,61 +336,57 @@ export const navbarData = [
  // Questions
 export const questions = [
   {
-    question: 'How much do you charge for a website?',
+    question: 'What services do you offer?',
     answer:
-      'Our website packages usually range from £2997 – £4997. However it really depends on what kind of website you need. We recently wrote a full guide on how much it costs for a website to give you an idea of the different options available.',
+      'I specialize in building responsive websites, admin dashboards, and web applications tailored to your business needs. I also provide full backend and frontend solutions, with a focus on clean design and robust functionality.',
   },
   {
-    question: 'Why are you so expensive?',
+    question: 'Do you do freelance work or are you looking for a full-time role?',
     answer:
-      'he process we use to build your website takes a certain amount of time and a lot of planning and research. Unlike other agencies, we DON’T use templates. We build your website from scratch, which means you get a unique design tailored around your business. Buying a website from us should not just simply be seen as a business expense as your website is a sales tool that should earn you money',
+      'I’m open to both! I take on freelance projects for clients needing custom web solutions, and I’m also actively exploring full-time opportunities where I can contribute to larger-scale, long-term projects.',
   },
   {
-    question: 'How long does it take to build a website?',
+    question: 'How much do you charge for a freelance project?',
     answer:
-      'It takes approximately 6-10 weeks to build a website from start to finish, providing we have all the information from you. Our full web design process is broken down here. Generally speaking, the website will only take a long time if we are still waiting for text and images from yourself.',
+      'The cost depends on the scope, complexity, and timeline of the project. I’m flexible and open to negotiation, aiming to find a price that works for both sides. Let’s discuss your goals and budget during our initial conversation.',
   },
   {
-    question: 'How do we communicate throughout the website build?',
+    question: 'How long does it take to build a website or dashboard?',
     answer:
-      'Before we begin working together, we’ll usually have an initially chat on the phone or via Skype to discuss the project. Once we get started, most of the communication will take place over email. This makes the process a lot easier as we’ll have all of the information saved and can come back to it later. Once we’ve finished the project, we will book in your 1hr digital marketing training session.',
+      'A standard website can take 2–4 weeks, while a full-featured admin dashboard may take 4–8 weeks depending on complexity and content readiness. I provide clear timelines before we begin and keep you updated throughout.',
   },
   {
-    question: 'What will you need from me?',
+    question: 'Can you work with my existing team or developers?',
     answer:
-      'It really depends on what type of website you want. We’ll be able to discuss this on our discovery call before we start working together. Depending on which package we agree on we could need…',
+      'Absolutely. I’ve worked as part of agile development teams and can collaborate smoothly with designers, backend developers, or product managers. Clear communication and version control are a big part of my workflow.',
   },
   {
-    question: 'What if I don’t like the website?',
+    question: 'What technologies do you use?',
     answer:
-      'You’re in luck. We offer a risk-free guarantee. Before we build your new website, we’ll design a mockup of your homepage. We’ll design a layout in Photoshop first, that way you’ll get to see our initial designs within approximately ten days. This is your opportunity to give us feedback and if you really don’t like it, you don’t have to move forward. Best part is, this won’t cost you anything.',
+      'I mainly work with React, Tailwind CSS, Next.js, Node.js, PostgreSQL, and REST APIs. I’m also experienced with authentication, admin dashboards, and modern deployment tools like Vercel and AWS.',
   },
   {
-    question: 'Do you offer a payment schedule?',
+    question: 'Can I see examples of your work?',
     answer:
-      'Yes, we split the payment into two. The first 50% is usually taken once you have seen the mockup of your homepage and you’re happy to move forward. The following 50% is taken 30 days after this.',
+      'Yes! I’ve worked on projects like a Digital Freight Management System, booking platforms, admin dashboards, and property pulse web app. You can check out my portfolio section for detailed case studies and demos.',
   },
   {
-    question: 'Can I make the final payment when the site is ready to go live?',
+    question: 'Do you provide ongoing maintenance and updates?',
     answer:
-      'No. In the past we have found that projects can take a lot longer than expected to complete. We might be waiting for information from you and this can delay the process. Sometimes these delays can take months. This is why we always invoice 30 days after the original payment. At this point we’ll be well on our way with your new website and you’ll be able to see the progress.',
+      'Yes. I offer maintenance packages for bug fixes, content updates, and performance improvements—whether it’s monthly or as-needed. I can also train you to manage your site independently.',
   },
   {
-    question: 'Who hosts the website?',
+    question: 'How do we start working together?',
     answer:
-      'If we build your website, we will generally manage the hosting for you so you don’t need to do anything. We use the same hosting company for our own website and for ALL our clients. Each website is managed individually to avoid any security issues. Every website we build has unlimited bandwidth, 20GB of disk space, 2GB Ram and 99.9% uptime. We’ve used the same company for 5 years and we don’t plan on changing this anytime soon.',
+      'You can reach out through my contact form or email me directly. We’ll set up a discovery call to discuss your goals, timeline, and budget. From there, I’ll send a proposal and we can get started!',
   },
   {
-    question: 'Can I update the website myself once it’s been built?',
+    question: 'Can you help me launch my product MVP quickly?',
     answer:
-      'Yes. We like to offer the ability for our clients to update the website themselves. We we’ll give you all the training and tools to be able to make website amendments. We use a easy to use platform called WordPress so you can add edit and delete content without paying us to do it for you.',
+      'Definitely. I can help you plan, build, and deploy a minimal viable product (MVP) quickly so you can test your idea and scale it over time. I focus on lean, efficient solutions that deliver real value early.',
   },
-  {
-    question: 'What if I don’t want to manage the website at all. Can you do it all for me?',
-    answer:
-      'Yes, we can arrange a maintenance package to suit your needs. This can range from 1hr per month to 10 hours per month and we can discuss a package that’s right for you.',
-  },
-]
+];
+
 
 import ArrowDropDownLineIcon from 'remixicon-react/ArrowDropDownLineIcon'
 export const questionArrow = <ArrowDropDownLineIcon />
@@ -395,36 +403,36 @@ export const arrowIcons = [<ArrowLeftSLineIcon />, <ArrowRightSLineIcon />]
 
 export const reviewsData = [
   {
-    image: '/reviews/client-4.png',
-    name: 'Mark T., Freelance Graphic Designer',
+    image: '/reviews/kira.jpeg',
+    name: 'Kirubel Kinfe, Full Stack developer',
     comment:
-      "Your work on our website has been phenomenal. The design is visually stunning and incredibly user-friendly. We've received countless compliments from our customers, and our sales have noticeably increased. Thank you for capturing our brand's essence so perfectly!",
+      "Working with Tsigie Beyene on the Digital Freight Management System project was a valuable experience. He showcased strong frontend skills—especially in building clean, responsive UIs and improving user experience. His attention to detail and seamless integration with backend systems made a real impact. A proactive and dependable team member!",
     stars: [1, 1, 1, 1, 0.5],
   },
   {
     image: '/reviews/client-2.png',
-    name: 'Sarah B., E-commerce Store Owner',
+    name: 'Mekash B., Logistics Company Owner',
     comment:
-      "Working with you, has been an absolute pleasure. The portfolio website you created for me is sleek, modern, and beautifully showcases my work. Your attention to detail and creative flair are truly impressive. I couldn't be happier with the final result!",
+      "We hired Tsigie to develop a logistics management app along with an admin dashboard, and the results exceeded our expectations. He quickly understood our business needs and delivered a user-friendly, efficient system that streamlined our operations. The dashboard is intuitive, and the mobile interface is clean and responsive. Highly reliable and skilled—definitely someone I’d work with again.!",
     stars: [1, 1, 1, 1, 1],
   },
   {
-    image: '/reviews/client-3.png',
-    name: 'Emily R., CEO of Tech Startup',
+    image: '/reviews/abrham.jpeg',
+    name: 'Abrham G., Online Banking Tech Officer',
     comment:
-      "The redesign of our corporate website exceeded all expectations. Your innovative ideas and professional execution have given us a site that is not only visually appealing but also highly functional. We've seen a significant improvement in user engagement thanks to your expertise.",
+      "Working with Tsigie was a smooth and productive experience. During our collaboration, he consistently brought technical insight, especially in API integration and data handling. His ability to communicate clearly and solve problems efficiently made him a valuable team member. A dependable and technically strong developer who always puts quality first",
     stars: [1, 1, 1, 1, 1],
   },
   {
-    image: '/reviews/client-1.png',
-    name: 'Bob W., Lifestyle Blogger',
+    image: '/reviews/nathan.jpg',
+    name: 'Nathanim T., Software Engineer',
     comment:
-      "I absolutely love the blog design you created for me, [Web Designer's Name]. It's exactly what I envisioned—stylish, unique, and easy to navigate. Your responsiveness and creative input were invaluable. My readers are raving about the new look, and I couldn't be more thrilled!",
+      "Collaborating with Tsigie on our recent project was a great experience. He demonstrated solid skills in both frontend and backend development, especially in building scalable features and clean user interfaces. His commitment to writing maintainable code and supporting the team made a real difference. A focused and collaborative engineer I’d gladly work with again.!",
     stars: [1, 1, 1, 1, 0.5],
   },
   {
     image: '/reviews/client-5.png',
-    name: 'David H., Director of Non-Profit Organization',
+    name: 'Fikiresilasseie H., Director of Non-Profit Organization',
     comment:
       "your work on our non-profit’s website has been transformative. The design is clean, engaging, and effectively conveys our mission. We've seen an increase in online donations and volunteer sign-ups, all thanks to your fantastic design. Your dedication and talent are greatly appreciated!",
     stars: [1, 1, 1, 1, 1],

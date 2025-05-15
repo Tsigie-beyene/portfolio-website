@@ -167,8 +167,8 @@ export const experienceData = [
   },
   {
     year: 4,
-    title: 'Building Expertise and Expanding Skills',
-    education: 'Certifications: Obtain certifications in advanced web technologies.',
+    title: 'ALX Leadership, Professional Experience & Freelancing',
+    education:'Graduated from University of Gondar and completed the ALX Software Engineering Program.',
     experience: [
       'Full-Time Position: Work as a junior web developer or designer.',
       'Portfolio Development: Continuously update your portfolio with professional and personal projects.',
