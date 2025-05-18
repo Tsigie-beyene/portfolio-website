@@ -194,10 +194,17 @@ export const experienceData = [
 
 export const projectsData = [
   {
-    name: 'tsigie_beyene.com',
-    desc: 'A Website Showcasing my work in web development, dashboards, and logistics apps — built with React, Next.JS, Tailwind, and real-world experience.',
-    url: '/projects/portfolioWebsite.png',
-    tech: ['FramerMotion','ReactJS', 'NextJS', 'TailwindCSS','JavaScript'],
+    name: 'Property pulse web app',
+    desc: 'A rental platform tailored for Addis Ababa — helping users find houses, apartments, condos, and rooms with ease. Built with modern web technologies for seamless browsing and listing.',
+    url: '/projects/property.png',
+    tech: ['HTML', 'TailwindCSS', 'JavaScript', 'ReactJS','NextJS'],
+  },
+
+{
+    name: 'TVShowAdvisor.com',
+    desc: 'A web app that helps users discover and get recommendations for TV shows based on their interests — built with React, API integration, and clean UI design.',
+    url: '/projects/movieshow.png',
+    tech: ['ReactJS', 'CSS', 'JavaScript'],
   },
   {
     name: 'Freight Management Admin Dashboard',
@@ -206,17 +213,12 @@ export const projectsData = [
     tech: ['ReactJS', 'JavaScript'],
   },
   {
-    name: 'TVShowAdvisor.com',
-    desc: 'A web app that helps users discover and get recommendations for TV shows based on their interests — built with React, API integration, and clean UI design.',
-    url: '/projects/movieshow.png',
-    tech: ['ReactJS', 'CSS', 'JavaScript'],
+    name: 'tsigie_beyene.com',
+    desc: 'A Website Showcasing my work in web development, dashboards, and logistics apps — built with React, Next.JS, Tailwind, and real-world experience.',
+    url: '/projects/portfolioWebsite.png',
+    tech: ['FramerMotion','ReactJS', 'NextJS', 'TailwindCSS','JavaScript'],
   },
-  {
-    name: 'Property pulse web app',
-    desc: 'A rental platform tailored for Addis Ababa — helping users find houses, apartments, condos, and rooms with ease. Built with modern web technologies for seamless browsing and listing.',
-    url: '/projects/figmadesighn.png',
-    tech: ['HTML', 'TailwindCSS', 'JavaScript', 'NextJS'],
-  },
+  
   {
     name: 'Track Your Expense App',
     desc: 'A user-friendly app to track personal expenses, manage budgets, and visualize spending patterns — built with React and intuitive data charts.',
