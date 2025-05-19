@@ -228,7 +228,7 @@ export const projectsData = [
   {
     name: 'Note Manager App',
     desc: 'A simple and efficient app to create, organize, and manage notes — featuring easy editing and search functionality, built with React.',
-    url: '/projects/image-6.jpg',
+    url: '/projects/note-manager.png',
     tech: ['ReactJS', 'CSS', 'JavaScript'],
   },
   {
