@@ -49,8 +49,7 @@ export const downloadIcon = <DownloadLineIcon />
 export const arrowLeftIcon = <ArrowLeftSFillIcon />
 
 export const aboutText =
-   "Hi, I'm Tsigie, a software engineer with a passion for both frontend and backend development. I work with HTML, CSS, JavaScript, React, and Next.js... to build responsive, user-friendly interfaces, while also leveraging backend technologies like PostgreSQL, SQL Server, and AWS to create efficient and scalable systems. My role allows me to connect the visual side of web development with the logic and structure behind the scenes—building applications that not only look great but also perform reliably and solve real-world problems."
-
+   "Versatile Full-Stack Developer with hands-on experience building scalable, high-performance web and mobile applications. Skilled in creating responsive interfaces using TypeScript, React, React Native, and Next.js, and developing robust backends with Node.js, Django, Spring Boot, and REST APIs. Proficient in database management with PostgreSQL and MongoDB (Mongoose), and experienced in scripting and automation using Bash, PowerShell, and Windows Terminal, known for clean code, adaptability, and delivering reliable, user-focused software solutions."
 // Skills
 export const skillsData = [
   {

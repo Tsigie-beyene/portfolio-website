@@ -26,8 +26,8 @@ export default function Experiance () {
       <Image 
       src={"/education.png"} 
       alt= {'Experiance Image'}
-      width={400} height={400} 
-      className=" absolute -top-4 right-0 opacity-70 lg:hidden md:hidden sm:hidden"
+      width={300} height={300} 
+      className="absolute -top-4 right-0 pt-25 opacity-70 lg:hidden md:hidden sm:hidden"
       />
 
       <div ref={containerRef}  className=" relative w-full h-full flex flex-col items-center justify-center gap-y-10 lg:gap-y-20">
