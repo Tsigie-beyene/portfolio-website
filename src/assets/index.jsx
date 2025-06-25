@@ -194,80 +194,61 @@ export const experienceData = [
 export const projectsData = [
   {
     name: 'Property pulse web app',
-    desc: 'A rental platform tailored for Addis Ababa — helping users find houses, apartments, condos, and rooms with ease. Built with modern web technologies for seamless browsing and listing.',
+    desc: 'A rental platform tailored for Addis Ababa: helping users find houses, apartments, condos, and rooms with ease. Built with modern web technologies for seamless browsing and listing.',
     url: '/projects/property.png',
-    tech: ['HTML', 'TailwindCSS', 'JavaScript', 'ReactJS','NextJS'],
+    tech: [ 'TailwindCSS', 'JavaScript','MongoseeDB','NextJS'],
   },
 
 {
     name: 'TVShowAdvisor.com',
-    desc: 'A web app that helps users discover and get recommendations for TV shows based on their interests — built with React, API integration, and clean UI design.',
+    desc: 'A web app that helps users discover and get recommendations for TV shows based on their interests: built with React, API integration, and clean UI design.',
     url: '/projects/movieshow.png',
     tech: ['ReactJS', 'CSS', 'JavaScript'],
   },
   {
-    name: 'Freight Management Admin Dashboard',
-    desc: 'An admin dashboard for managing freight logistics — featuring route tracking, cargo listings, and user roles, built with React',
+    name: 'Freight Management System',
+    desc: 'Developed a mobile and web-based logistics platform with React Native (driver app), React.js (admin dashboard), and Spring Boot (Java backend) for managing freight, drivers, and real-time tracking.',
     url: '/projects/adminDashboard.jpg',
-    tech: ['ReactJS', 'JavaScript'],
+    tech: ['ReactJS', 'TypeScript','Spring Boot','React Native','Java'],
   },
   {
     name: 'tsigie_beyene.com',
-    desc: 'A Website Showcasing my work in web development, dashboards, and logistics apps — built with React, Next.JS, Tailwind, and real-world experience.',
+    desc: 'A Website Showcasing my work in web development, dashboards, and logistics apps: built with React, Next.JS, Tailwind, and real-world experience.',
     url: '/projects/portfolioWebsite.png',
     tech: ['FramerMotion','ReactJS', 'NextJS', 'TailwindCSS','JavaScript'],
   },
-  
   {
-    name: 'Track Your Expense App',
-    desc: 'A user-friendly app to track personal expenses, manage budgets, and visualize spending patterns — built with React and intuitive data charts.',
-    url: '/projects/expenseTracker.png',
-    tech: ['JavaScript', 'ReactJS', 'CSS'],
+    name: 'ELMS App: Learning Management System',
+    desc: 'Developed a mobile-first LMS for STEM courses in Ethiopia using React Native, Django REST API, and Tailwind CSS. Features include interactive lessons, quizzes, and student progress tracking for high school and elementary levels.',
+    url: '/projects/LMS.png',
+    tech: ['React Native', 'Python','Django','TailwindCSS'],
   },
   {
     name: 'Note Manager App',
-    desc: 'A simple and efficient app to create, organize, and manage notes — featuring easy editing and search functionality, built with React.',
+    desc: 'A simple and efficient app to create, organize, and manage notes: featuring easy editing and search functionality, built with React.',
     url: '/projects/note-manager.png',
     tech: ['ReactJS', 'CSS', 'JavaScript'],
   },
-  {
-    name: 'PixelPerfectDesigns.info',
-    desc: 'A graphic design portfolio showcasing the work of a freelance designer, including branding, web design, and illustration projects.',
-    url: '/projects/image-7.jpg',
-    tech: ['NextJS', 'FramerMotion'],
-  },
-  {
-    name: 'HarmonyHealthHub.com',
-    desc: ' A wellness website focused on holistic health, offering articles on nutrition, fitness, mental health, and alternative therapies.',
-    url: '/projects/image-8.jpg',
-    tech: ['NextJS', 'ReactJS', 'FramerMotion'],
-  },
-  {
-    name: 'StellarSkiesAstronomy.org',
-    desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
-    url: '/projects/image-9.jpg',
-    tech: ['ReactJS', 'JavaScript', 'ThreeJS'],
-  },
-  {
-    name: 'UrbanEatsDelights.com',
-    desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
-    url: '/projects/image-10.jpg',
-    tech: ['NextJS', 'ThreeJS'],
-  },
+ 
+ 
 ]
 
 export const projectsButton = [
   'All',
-  'Figma',
-  'Photoshop',
-  'HTML',
-  'CSS',
-  'JavaScript',
+  'TypeScript',
   'ReactJS',
-  'TailwindCSS',
   'NextJS',
+  'TailwindCSS',
+  'JavaScript',
+  'React Native',
   'FramerMotion',
-  'ThreeJS',
+  'Python',
+  'NodeJS',
+  'Django',
+  'Java',
+  'Spring Boot',
+  'MongoseeDB',
+  
 ]
 
 // import { PiCopyrightThin } from 'react-icons/pi'

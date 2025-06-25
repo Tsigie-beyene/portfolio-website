@@ -251,7 +251,7 @@ export const projectsData = [
 export const projectsButton = [
   'All',
   'Figma',
-  'Photoshop',
+  'Java',
   'HTML',
   'CSS',
   'JavaScript',
@@ -259,7 +259,7 @@ export const projectsButton = [
   'TailwindCSS',
   'NextJS',
   'FramerMotion',
-  'ThreeJS',
+  'Django',
 ]
 
 import Home5LineIcon from 'remixicon-react/Home5LineIcon'
