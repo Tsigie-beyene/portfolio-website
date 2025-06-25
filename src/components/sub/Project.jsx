@@ -17,15 +17,14 @@ function Project({data,index}) {
          alt="Project Image"
             width={400}
             height={400}
-            className="rounded-lg opacity-70"
+            className="transition-opacity duration-300 rounded-lg opacity-80 hover:opacity-100"
         />
         <motion.div 
         initial={{opacity:0}}
         animate={{opacity:show ? 1 : 0}}
-        className="absolute top-0 w-full h-full flex flex-col items-center
-        justify-center gap-y-2 bg-white/95 p-6 rounded-lg dark:bg-zinc-700/95 transition-colors">
-            <h2 className="text-lg font-bold tracking-wide text-gray-500 dark:text-white transition-colors">{data.name}</h2>
-            <p className="text-justify text-gray-500 first-letter:pl-2 dark:text-gray-100 transition-colors">{data.desc}</p>
+        className="absolute top-0 flex flex-col items-center justify-center w-full h-full p-6 transition-colors rounded-lg gap-y-2 bg-white/95 dark:bg-zinc-700/95">
+            <h2 className="text-lg font-bold tracking-wide text-gray-500 transition-colors dark:text-white">{data.name}</h2>
+            <p className="text-justify text-gray-500 transition-colors first-letter:pl-2 dark:text-gray-100">{data.desc}</p>
         </motion.div>
     </motion.div>
   )

@@ -200,7 +200,7 @@ export const projectsData = [
   },
 
 {
-    name: 'TVShowAdvisor.com',
+    name: 'TV Show Advisor Web App',
     desc: 'A web app that helps users discover and get recommendations for TV shows based on their interests: built with React, API integration, and clean UI design.',
     url: '/projects/movieshow.png',
     tech: ['ReactJS', 'CSS', 'JavaScript'],
@@ -212,7 +212,7 @@ export const projectsData = [
     tech: ['ReactJS', 'TypeScript','Spring Boot','React Native','Java'],
   },
   {
-    name: 'tsigie_beyene.com',
+    name: 'Personal Website',
     desc: 'A Website Showcasing my work in web development, dashboards, and logistics apps: built with React, Next.JS, Tailwind, and real-world experience.',
     url: '/projects/portfolioWebsite.png',
     tech: ['FramerMotion','ReactJS', 'NextJS', 'TailwindCSS','JavaScript'],
