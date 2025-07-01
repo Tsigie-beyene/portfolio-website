@@ -1,18 +1,22 @@
 // Hero
 import InstagramLineIcon from 'remixicon-react/InstagramLineIcon'
-import FacebookCircleLineIcon from 'remixicon-react/FacebookCircleLineIcon'
-import DribbbleLineIcon from 'remixicon-react/DribbbleLineIcon'
-import YoutubeLineIcon from 'remixicon-react/YoutubeLineIcon'
 import GithubLineIcon from 'remixicon-react/GithubLineIcon'
+import LinkedinLineIcon from 'remixicon-react/LinkedinLineIcon'
 
 export const heroIcons = [
-  <InstagramLineIcon />,
-  <FacebookCircleLineIcon />,
-  <DribbbleLineIcon />,
-  <YoutubeLineIcon />,
-  <GithubLineIcon />,
+  {
+    icon: <GithubLineIcon />,
+    url: 'https://github.com/Tsigie-beyene',
+  },
+  {
+    icon: <LinkedinLineIcon />,
+    url: 'https://www.linkedin.com/in/tsigie-beyene',
+  },
+  {
+    icon: <InstagramLineIcon />,
+    url: 'https://www.instagram.com/tsigie_bey?igsh=ZGZtNzlpdjcyZ3p6', // Replace with your actual Instagram URL or remove if unused
+  },
 ]
-
 // AboutMe icons
 import GithubFillIcon from 'remixicon-react/GithubFillIcon'
 import Projector2LineIcon from 'remixicon-react/Projector2LineIcon'

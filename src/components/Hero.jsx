@@ -37,7 +37,7 @@ export default function Hero() {
   return (  
     <div 
     id="home"
-    className="h-screen grid place-items-center" 
+    className="grid h-screen place-items-center" 
     onMouseMove={handleMouseMove}
     onMouseEnter={handleMouseEnter}
     >
@@ -46,7 +46,7 @@ export default function Hero() {
           initial={{opacity:0,y:-100}}
           animate={{opacity:1,y:0}}
           transition={{delay:0.5}}
-          className="felx flex-col items-center justify-center gap-y-3 font-light capitalize ">
+          className="flex-col items-center justify-center font-light capitalize felx gap-y-3 ">
              <motion.div 
              className="flex items-center justify-center" 
              style ={{
@@ -71,28 +71,33 @@ export default function Hero() {
                  transition={{opacity:{delay:0.4}}}
                  > Hi </motion.span>
             </motion.div>
-            <h1 className=" text-center text-3xl  font-bold tracking-wider text-gray-500 dark:text-white transition-colors">My Name is Tsigie Beyene &</h1>
-            <p className=" text-lg tracking-wider text-gray-700 dark:text-gray-200 transition-colors">I like learning and building every day😊</p>
+            <h1 className="text-3xl font-bold tracking-wider text-center text-gray-500 transition-colors dark:text-white">My Name is Tsigie Beyene &</h1>
+            <p className="text-lg tracking-wider text-gray-700 transition-colors dark:text-gray-200">I like learning and building every day😊</p>
          </motion.div>
          <motion.div 
          initial={{opacity:0,y:100}}
          animate={{opacity:1,y:0}}
          transition={{delay:0.5}}
       
-         className="mt-8 flex justify-center gap-x-10 text-3xl text-yellow-600">
-         {heroIcons.map((icon, i) => (
-         <a href="#" key={i} className="rounded-lg hover:bg-red-400 hover:text-white transition-colors">
-           {icon} 
-            </a>
-             ))} 
-
+         className="flex justify-center mt-8 text-3xl text-yellow-600 gap-x-10">
+        {heroIcons.map((item, i) => (
+  <a
+    href={item.url}
+    key={i}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="p-2 transition-colors rounded-lg hover:bg-red-400 hover:text-white"
+  >
+    {item.icon}
+  </a>
+))}
          </motion.div>
          <motion.a
            initial={{opacity:0,x:-30}}
          animate={{opacity:1,x:0}}
          transition={{delay:0.7}}
       
-         href="#" className="mx-auto mt-7 block w-max rounded-lg bg-red-400 px-3 py-1 font-light capitalize tracking-wider text-white hover:bg-red-500 transition-colors"
+         href="#" className="block px-3 py-1 mx-auto font-light tracking-wider text-white capitalize transition-colors bg-red-400 rounded-lg mt-7 w-max hover:bg-red-500"
          onMouseEnter={()=>setButtonHover(true)}
          onMouseLeave={()=>setButtonHover(false)}
          
