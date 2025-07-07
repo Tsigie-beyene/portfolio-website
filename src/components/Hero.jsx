@@ -46,7 +46,7 @@ export default function Hero() {
           initial={{opacity:0,y:-100}}
           animate={{opacity:1,y:0}}
           transition={{delay:0.5}}
-          className="flex-col items-center justify-center font-light capitalize felx gap-y-3 ">
+          className="flex-col items-center justify-center font-light capitalize flex gap-y-3 ">
              <motion.div 
              className="flex items-center justify-center" 
              style ={{
@@ -97,7 +97,7 @@ export default function Hero() {
          animate={{opacity:1,x:0}}
          transition={{delay:0.7}}
       
-         href="#" className="block px-3 py-1 mx-auto font-light tracking-wider text-white capitalize transition-colors bg-red-400 rounded-lg mt-7 w-max hover:bg-red-500"
+         href="/#contact" className="block px-3 py-1 mx-auto font-light tracking-wider text-white capitalize transition-colors bg-red-400 rounded-lg mt-7 w-max hover:bg-red-500"
          onMouseEnter={()=>setButtonHover(true)}
          onMouseLeave={()=>setButtonHover(false)}
          

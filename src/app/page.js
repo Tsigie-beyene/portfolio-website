@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useRef, useEffect } from "react";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Experiance from "@/components/Experiance";
@@ -11,7 +12,6 @@ import Questions from "@/components/Questions";
 import Navbar from "@/components/Navbar";
 import Toggle from "@/components/sub/Toggle";
 import Load from "@/components/sub/Load";
-import { useState, useRef, useEffect } from "react";
 
 export default function Home() {
   const [id, setId] = useState(0);
@@ -21,8 +21,7 @@ export default function Home() {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          const intrsecting = entry.isIntersecting;
-          if (intrsecting) {
+          if (entry.isIntersecting) {
             setId(entry.target.id);
           }
         });
@@ -31,16 +30,18 @@ export default function Home() {
     );
 
     const compsArr = Array.from(compsRef.current.children);
-    compsArr.forEach((comp) => {
-      observer.observe(comp);
-    });
+    compsArr.forEach((comp) => observer.observe(comp));
+
+    // Cleanup on unmount
+    return () => observer.disconnect();
   }, []);
+
   return (
     <>
       <Load />
       <Toggle>
         <Navbar id={id} />
-        <div className="w-min" ref={compsRef}>
+        <div className="w-full mx-auto px-20" ref={compsRef}>
           <Hero />
           <About />
           <Experiance />
