@@ -22,12 +22,12 @@ export default function Experiance () {
     
   return (
     <div id="experience" className="py-20  relative">
-      <Heading text={'Experiance & Education'}/>
+      <Heading text={'Experience & Education'}/>
       <Image 
       src={"/education.png"} 
-      alt= {'Experiance Image'}
+      alt= {'Experience Image'}
       width={300} height={300} 
-      className="absolute -top-4 right-0 pt-25 opacity-70 lg:hidden md:hidden sm:hidden"
+      className="absolute -top-4 right-25 pt-30 opacity-70 lg:hidden md:hidden sm:hidden"
       />
 
       <div ref={containerRef}  className=" relative w-full h-full flex flex-col items-center justify-center gap-y-10 lg:gap-y-20">
@@ -46,14 +46,14 @@ export default function Experiance () {
             <h1 className="text-xl sm:text-lg font-light text-gray-700">{data.title} </h1>
             <p className="text-gray-800 dark:text-gray-100" >
               <span className="block font-light">Education: </span>
-              <span className="block pl-2 font-extralight ">{data.education} </span>
+              <span className="block pl-2 font-earthlight ">{data.education} </span>
             </p>  
             <div className="text-gray-800 dark:text-gray-200 transition-colors">
              <span className="font-light">Experience:</span>
              <ul 
              className="pl-2">
               {data.experience.map((exp,j)=>(
-                <li key={j} className="my-1 font-extralight">
+                <li key={j} className="my-1 font-earthlight">
                   {exp}
                 </li>
               )
