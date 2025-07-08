@@ -7,7 +7,7 @@ import { aboutData, aboutText, downloadIcon, arrowLeftIcon } from "@/assets"
 
 export default function About() {
   return (
-    <div id="about" className="min-h-screen flex flex-col items-center justify-center px-15 sm:px-6 md:px-2 lg:px-o.5 xl:px-0.5">
+    <div id="about" className="min-h-screen flex flex-col items-center justify-center px-10 sm:px-6 md:px-2 lg:px-o.5 xl:px-0.5">
       <Heading text={"About Me"} />
 
       {/* Main Section: Image + Text */}
