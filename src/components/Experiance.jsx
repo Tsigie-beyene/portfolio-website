@@ -27,7 +27,7 @@ export default function Experiance () {
       src={"/education.png"} 
       alt= {'Experience Image'}
       width={300} height={300} 
-      className="absolute -top-4 right-0 pt-8 opacity-70 hidden lg:block"
+      className="absolute -top-4 right-0 pt-15 opacity-70 hidden lg:block"
       />
 
       <div ref={containerRef} className="relative w-full h-full flex flex-col items-center justify-center gap-y-10 lg:gap-y-20">
@@ -47,18 +47,18 @@ export default function Experiance () {
           whileInView={{opacity:1, x:0}}
           viewport={{once:true}}
           transition={{duration:.7,type:'spring',stiffness:50}}
-          className="relative flex flex-col gap-y-3 rounded-md border border-red-400 bg-white p-4 tracking-wide text-sm dark:bg-zinc-700 transition-colors z-20 sm:text-sm">
-            <h1 className="text-lg font-light text-gray-700 sm:text-xl">{data.title} </h1>
+          className="relative flex flex-col gap-y-3 rounded-md border border-red-400 bg-white p-4 tracking-wide text-sm lg:text-base dark:bg-zinc-700 transition-colors z-20 sm:text-sm">
+            <h1 className="text-lg font-earthlight text-gray-700 dark:text-gray-100 sm:text-xl">{data.title} </h1>
             <p className="text-gray-800 dark:text-gray-100" >
-              <span className="block font-light">Education: </span>
-              <span className="block pl-2 font-earthlight ">{data.education} </span>
+              <span className="block font-earthlight">Education: </span>
+              <span className="block pl-2 font-light">{data.education} </span>
             </p>  
             <div className="text-gray-800 dark:text-gray-200 transition-colors">
-             <span className="font-light">Experience:</span>
+             <span className="font-earthlight">Experience:</span>
              <ul 
              className="pl-2">
               {data.experience.map((exp,j)=>(
-                <li key={j} className="my-1 font-earthlight">
+                <li key={j} className="my-1 font-light">
                   {exp}
                 </li>
               )
