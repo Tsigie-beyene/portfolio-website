@@ -34,7 +34,7 @@ export default function Experiance () {
         {experienceData.map((data,i)=>(
           <div
           key={`id-${i}`}
-          className={`w-full px-4 lg:px-8 xl:px-14 relative left-0
+          className={`w-full px-4 xl:px-14 relative left-0
             sm:w-full sm:px-0
             lg:w-[480px] lg:px-12
             xl:w-[600px]
