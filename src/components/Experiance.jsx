@@ -21,7 +21,7 @@ export default function Experiance () {
   })
     
   return (
-    <div id="experience" className="py-20 px-8 relative">
+    <div id="experience" className="py-20 px-6 relative">
       <Heading text={'Experience & Education'}/>
       <Image 
       src={"/education.png"} 

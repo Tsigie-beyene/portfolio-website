@@ -24,11 +24,10 @@ function Projects() {
         prevIndex.current = index
     },[index])
 
-     
   return ( 
-    <div  id="projects" className="min-h-screen py-20  ">
+    <div id="projects" className="min-h-screen py-12 px-6 sm:px-8 md:py-20">
         <Heading text={'Projects'}/>
-        <div className="flex flex-wrap items-center justify-between gap-4 py-10">
+        <div className="flex flex-row flex-wrap justify-center gap-3 py-6 md:gap-4 md:py-10  ">
             { projectsButton
             .map((text,i)=>(
              <motion.button 
@@ -40,14 +39,12 @@ function Projects() {
                  setTech(text) 
                  setIndex(i)
                 }}
-               className="border border-yellow-500 rounded-xl px-2 py-1 
-               text-sm font-light tracking-wider text-gray-400 cursor-pointer">
+               className="border border-yellow-500 rounded-xl px-2 py-1 text-sm font-light tracking-wider text-gray-400 cursor-pointer">
                   {text}
               </motion.button>
             ))}
-           
         </div>
-        <div className="flex flex-wrap items-center justify-center gap-5">
+        <div className="flex flex-col justify-center gap-y-5 sm:flex-row sm:flex-wrap sm:gap-x-5 sm:gap-y-5 px-4">
             {projectsData.filter((project)=>{
                 return project.tech.some((item)=>(
                     tech=== 'All' ? true : item === tech
@@ -59,7 +56,6 @@ function Projects() {
                 <Project  data={data} index={i}/>
                 </motion.div>
             ))}   
-
         </div>
     </div>
   )
