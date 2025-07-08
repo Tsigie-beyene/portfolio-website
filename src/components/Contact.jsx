@@ -62,9 +62,9 @@ function Contact() {
   }
 
   return (
-    <div id="contact" className="h-screen lg:h-auto py-20 lg:py-40 xs:pb-20 ">
+    <div id="contact" className="min-h-screen py-16 px-8 xs:pb-20 md:py-20 md:px-8 lg:py-40">
         <Heading text={'Get in touch'}/>
-        <div className="w-full h-full my-auto flex lg:flex-col items justify-between lg:justify-center gap-x-20 lg:gap-x-0 gap-y-20">
+        <div className="w-full h-full my-auto flex flex-col items-center justify-center gap-y-12 lg:flex-row lg:items-center lg:justify-center lg:gap-x-20 lg:gap-y-0">
             <motion.div
             initial={{opacity:0,y:150}}
             whileInView={{opacity:1,y:0}} 
@@ -73,9 +73,9 @@ function Contact() {
             >
                 <Image src={'/contact.gif'}
                 alt="Contact Image" 
-                width={400}
-                height={400}
-                className="w-[400px] rounded-md opacity-80"
+                width={300}
+                height={300}
+                className="w-[220px] rounded-md opacity-80 mx-auto sm:w-[300px] md:w-[350px] lg:w-[400px]"
                 />
             </motion.div>
             <motion.form 
@@ -84,16 +84,15 @@ function Contact() {
             transition={{duration:.4}}
             viewport={{once:true}}
             onSubmit={handleSubmit}
-            className="w-[600px] lg:w-[400px] sm:w-full flex flex-col gap-3">
-                <div className="w-full flex lg:flex-col gap-x-3 lg:gap-y-3">
+            className="w-full max-w-md flex flex-col gap-3 md:w-[400px] lg:w-[600px]">
+                <div className="w-full flex flex-col gap-y-3 md:flex-row md:gap-x-3 md:gap-y-0">
                     <input 
                       type="text" 
                       name="name"
                       value={formData.name}
                       onChange={handleInputChange}
                       placeholder="Your Name" 
-                      className="w-full border border-yellow-500 rounded-md bg-zinc-100 px-4 py-2
-                      text-sm tracking-wider text-gray-500 outline-none focus:border-yellow-600 focus:bg-white transition-colors"
+                      className="w-full border border-yellow-500 rounded-md bg-zinc-100 px-4 py-2 text-sm tracking-wider text-gray-500 outline-none focus:border-yellow-600 focus:bg-white transition-colors"
                       required
                     />
                     <input 
@@ -102,8 +101,7 @@ function Contact() {
                       value={formData.email}
                       onChange={handleInputChange}
                       placeholder="Your Email" 
-                      className="w-full border border-yellow-500 rounded-md bg-zinc-100 px-4 py-2
-                      text-sm tracking-wider text-gray-500 outline-none focus:border-yellow-600 focus:bg-white transition-colors"
+                      className="w-full border border-yellow-500 rounded-md bg-zinc-100 px-4 py-2 text-sm tracking-wider text-gray-500 outline-none focus:border-yellow-600 focus:bg-white transition-colors"
                       required
                     />
                 </div>
@@ -113,8 +111,7 @@ function Contact() {
                   value={formData.subject}
                   onChange={handleInputChange}
                   placeholder="Subject" 
-                  className="w-full border border-yellow-500 rounded-md bg-zinc-100 px-4 py-2
-                  text-sm tracking-wider text-gray-500 outline-none focus:border-yellow-600 focus:bg-white transition-colors"
+                  className="w-full border border-yellow-500 rounded-md bg-zinc-100 px-4 py-2 text-sm tracking-wider text-gray-500 outline-none focus:border-yellow-600 focus:bg-white transition-colors"
                   required
                 />
                 <textarea 
@@ -122,11 +119,9 @@ function Contact() {
                   value={formData.message}
                   onChange={handleInputChange}
                   placeholder="Write Me..." 
-                  className="max-h-[250px] min-h-[150px] w-full border border-yellow-500 rounded-md bg-zinc-100 px-4 py-2
-                  text-sm tracking-wider text-gray-500 outline-none focus:border-yellow-600 focus:bg-white transition-colors resize-none"
+                  className="max-h-[250px] min-h-[150px] w-full border border-yellow-500 rounded-md bg-zinc-100 px-4 py-2 text-sm tracking-wider text-gray-500 outline-none focus:border-yellow-600 focus:bg-white transition-colors resize-none"
                   required
                 ></textarea>
-                
                 {/* Status Messages */}
                 {submitStatus === 'success' && (
                   <motion.div
@@ -137,7 +132,6 @@ function Contact() {
                     Message sent successfully! Check your email client.
                   </motion.div>
                 )}
-                
                 {submitStatus === 'error' && (
                   <motion.div
                     initial={{ opacity: 0, y: 10 }}
@@ -147,12 +141,10 @@ function Contact() {
                     Please fill all fields correctly and try again.
                   </motion.div>
                 )}
-                
                 <button 
                   type="submit" 
                   disabled={isLoading}
-                  className={`w-full border border-yellow-500 rounded-md px-4 py-2
-                  text-sm font-light tracking-wider text-white outline-none transition-colors cursor-pointer
+                  className={`w-full border border-yellow-500 rounded-md px-4 py-2 text-sm font-light tracking-wider text-white outline-none transition-colors cursor-pointer
                   ${isLoading 
                     ? 'bg-gray-400 cursor-not-allowed' 
                     : 'bg-yellow-600 hover:bg-yellow-500'
@@ -160,7 +152,6 @@ function Contact() {
                 >
                   {isLoading ? 'Sending...' : 'Send Message'}
                 </button>
-                
                 <p className="text-xs text-gray-500 text-center mt-2">
                   Or email me directly at: <a href="mailto:tsigiebey29@gmail.com" className="text-yellow-600 hover:underline">tsigiebey29@gmail.com</a>
                 </p>

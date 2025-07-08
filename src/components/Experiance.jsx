@@ -27,14 +27,14 @@ export default function Experiance () {
       src={"/education.png"} 
       alt= {'Experience Image'}
       width={300} height={300} 
-      className="absolute -top-4 right-0 pt-15 opacity-70 hidden lg:block"
+      className="absolute -top-4 right-0 pt-20 opacity-70 hidden lg:block"
       />
 
       <div ref={containerRef} className="relative w-full h-full flex flex-col items-center justify-center gap-y-10 lg:gap-y-20">
         {experienceData.map((data,i)=>(
           <div
           key={`id-${i}`}
-          className={`w-full px-4 relative left-0
+          className={`w-full px-4 lg:px-8 xl:px-14 relative left-0
             sm:w-full sm:px-0
             lg:w-[480px] lg:px-12
             xl:w-[600px]
