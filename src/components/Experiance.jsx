@@ -30,11 +30,11 @@ export default function Experiance () {
       className="absolute -top-4 right-0 pt-20 opacity-70 hidden lg:block"
       />
 
-      <div ref={containerRef} className="relative w-full h-full flex flex-col items-center justify-center gap-y-10 lg:gap-y-20">
+      <div ref={containerRef} className="relative w-full h-full flex flex-col items-center justify-center gap-y-10 lg:gap-y-15">
         {experienceData.map((data,i)=>(
           <div
           key={`id-${i}`}
-          className={`w-full px-4 xl:px-14 relative left-0
+          className={`w-full px-0 xl:px-14 relative left-0
             sm:w-full sm:px-0
             lg:w-[480px] lg:px-12
             xl:w-[600px]
@@ -51,7 +51,7 @@ export default function Experiance () {
             <h1 className="text-lg font-earthlight text-gray-700 dark:text-gray-100 sm:text-xl">{data.title} </h1>
             <p className="text-gray-800 dark:text-gray-100" >
               <span className="block font-earthlight">Education: </span>
-              <span className="block pl-2 font-light">{data.education} </span>
+              <span className="block pl-2 font-light ">{data.education} </span>
             </p>  
             <div className="text-gray-800 dark:text-gray-200 transition-colors">
              <span className="font-earthlight">Experience:</span>

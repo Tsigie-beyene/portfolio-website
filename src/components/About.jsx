@@ -7,11 +7,11 @@ import { aboutData, aboutText, downloadIcon, arrowLeftIcon } from "@/assets"
 
 export default function About() {
   return (
-    <div id="about" className="min-h-screen flex flex-col items-center justify-center px-10 sm:px-6 md:px-2 lg:px-o.5 xl:px-0.5">
+    <div id="about" className="min-h-screen flex flex-col items-center justify-center px-4 sm:px-6 md:px-2 lg:px-o.5 xl:px-0.5">
       <Heading text={"About Me"} />
 
       {/* Main Section: Image + Text */}
-      <div className="w-full flex flex-col items-center gap-6 md:flex-row md:justify-center md:items-start">
+      <div className="w-full flex flex-col items-center justify-center gap-6 md:flex-row md:justify-center md:items-start">
         
         {/* Image (shown on all devices, scaled based on screen size) */}
         <Image
@@ -48,7 +48,7 @@ export default function About() {
       </div>
 
       {/* Achievements Section */}
-      <div className="mt-16 w-full flex flex-wrap items-center justify-center gap-x-7 gap-y-10">
+      <div className="mt-16 w-full flex flex-wrap items-center px-4 md:justify-center gap-x-7 gap-y-5 md:gap-y-10">
         {aboutData.map((item, i) => (
           <Achievements key={i} title={item.title} amount={item.amount}>
             {item.icon}
