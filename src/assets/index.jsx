@@ -65,10 +65,6 @@ export const skillsData = [
     icon: '/skills/photoshop.png',
   },
   {
-    name: 'Blender',
-    icon: '/skills/blender.png',
-  },
-  {
     name: 'VS Code',
     icon: '/skills/vscode.png',
   },
@@ -121,12 +117,41 @@ export const skillsData = [
     icon: '/skills/nodejs.png',
   },
   {
+    name: 'Python',
+    icon: '/skills/Python.webp',
+  },
+  {
+    name: 'Django',
+    icon: '/skills/Django.png',
+  },
+  {
+    name: 'REST API',
+    icon: '/skills/Api.webp',
+  },
+  {
+    name: 'SQL',
+    icon: '/skills/sql.webp',
+  },
+  
+  {
+    name: 'PostgreSQL',
+    icon: '/skills/Postgresql.webp',
+  },
+  {
     name: 'MongoDB',
     icon: '/skills/mongodb.png',
   },
   {
+    name: 'Docker',
+    icon: '/skills/Docker.webp',
+  },
+  {
     name: 'Github',
     icon: '/skills/github.png',
+  },
+  {
+    name: 'GitLab',
+    icon: '/skills/GitLab.webp',
   },
 ]
 
