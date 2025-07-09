@@ -348,7 +348,7 @@ export const questions = [
   {
     question: 'What services do you offer?',
     answer:
-      'I specialize in building responsive websites, admin dashboards, and web applications tailored to your business needs. I also provide full backend and frontend solutions, with a focus on clean design and robust functionality.',
+      'I specialize in building responsive websites, admin dashboards, web applications and mobile applications tailored to your business needs. I also provide full backend and frontend solutions, with a focus on clean design and robust functionality.',
   },
   {
     question: 'Do you do freelance work or are you looking for a full-time role?',
@@ -373,7 +373,7 @@ export const questions = [
   {
     question: 'What technologies do you use?',
     answer:
-      'I mainly work with React, Tailwind CSS, Next.js, Node.js, PostgreSQL, and REST APIs. I’m also experienced with authentication, admin dashboards, and modern deployment tools like Vercel and AWS.',
+      'I mainly work with React, Tailwind CSS, Next.js, React Native, Python, Django, Node.js, PostgreSQL, and REST APIs. I’m also experienced with authentication, admin dashboards, and modern deployment tools like Vercel and AWS.',
   },
   {
     question: 'Can I see examples of your work?',
@@ -383,7 +383,7 @@ export const questions = [
   {
     question: 'Do you provide ongoing maintenance and updates?',
     answer:
-      'Yes. I offer maintenance packages for bug fixes, content updates, and performance improvements—whether it’s monthly or as-needed. I can also train you to manage your site independently.',
+      'Yes. I offer maintenance packages for bug fixes, content updates, and performance improvements, whether it’s monthly or as-needed. I can also train you to manage your site independently.',
   },
   {
     question: 'How do we start working together?',
