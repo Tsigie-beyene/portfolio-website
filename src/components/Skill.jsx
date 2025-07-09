@@ -21,9 +21,9 @@ const Skill = () => {
     },
   }
   return (
-    <div id="skills" className="min-h-screen flex flex-col items-center justify-center gap-y-12 px-4 sm:gap-y-20">
+    <div id="skills" className="min-h-screen flex flex-col items-center justify-center gap-y-12 px-6 sm:gap-y-20">
         <Heading text={'Skills & Tools'}/>
-        <div className="w-full flex flex-wrap justify-center gap-y-6 gap-x-4 sm:gap-x-8 sm:gap-y-10 lg:gap-y-6">
+        <div className="w-full grid grid-cols-2 gap-y-6 gap-x-7 sm:flex sm:flex-wrap sm:justify-center sm:gap-x-8 sm:gap-y-10 lg:gap-y-6">
           {skillsData.map((item,i) => (
             <motion.div 
             custom={i}
@@ -33,7 +33,7 @@ const Skill = () => {
             whileHover={{scale:1.1}}
             viewport={{margin:'50px',once:true}}
             key={i}
-            className="flex items-center justify-center gap-x-2 rounded-xl border border-yellow-500 bg-zinc-200 px-3 py-2 sm:gap-x-3 sm:px-5 lg:px-2">
+            className="flex items-center flex-wrap justify-center gap-x-2 rounded-xl border border-yellow-500 bg-zinc-200 px-3 py-2 sm:gap-x-3 sm:px-5 lg:px-2">
                 <Image src={item.icon} alt ="skills Image" width={100} height= {100}
                 className="h-auto w-[40px]" />
                 <p className="text-sm text-gray-600">{item.name}</p>
