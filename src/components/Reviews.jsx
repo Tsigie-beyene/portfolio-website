@@ -38,7 +38,7 @@ export default function Reviews() {
                 transition={{duration:.4}}
             className="relative w-[280px] h-[600px] p-2 flex items-center justify-center overflow-hidden
             md:w-[95%] md:h-[400px] md:p-5
-            lg:w-[600px] lg:h-[450px]
+            lg:w-[700px] lg:h-[500px]
             xl:w-[800px] xl:h-[500px]">
                 {reviewsData.map((review,i) => (
                      <motion.div
@@ -59,7 +59,7 @@ export default function Reviews() {
                          <h1 className="text-xl text-center tracking-wider text-yellow-600 md:text-xl lg:text-2xl">
                             {review.name}
                             </h1>
-                         <p className="text-base text-center tracking-wider text-gray-600 first-letter:pl-2 dark:text-white transition-colors md:text-sm lg:text-lg">
+                         <p className="text-base font-extralight text-center tracking-wider text-gray-600 first-letter:pl-2 dark:text-white transition-colors md:text-sm lg:text-lg">
                             {review.comment}
                          </p>
                          <div className="flex flex-col items-center justify-center gap-y-2">
