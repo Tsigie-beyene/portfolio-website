@@ -188,7 +188,6 @@ export const experienceData = [
     experience: [
       'University Projects: Participated in collaborative development and open-source contributions.',
       'Capstone Project: Delivered a complete logistics or admin system solution.',
-      'Tool Building: Started creating logistics and admin-focused tools.',
       'Internship: as Software Developer at University of Gondar using React, Node.js, and Express.',
     ],
   },
@@ -200,7 +199,7 @@ export const experienceData = [
     experience: [
       'Leadership: Led teams and delivered milestone projects with ALX.',
       'Project Development: Built admin dashboards and logistics apps using modern frontend stacks.',
-      'Professional Work: Online Banking Technical Officer supporting internal web systems.',
+      'Professional Work: Software Engineer developing and maintaining internal web systems for banking operations.',
       'Freelancing: Built websites and dashboards for local and global clients.',
       'Frontend Focus: Specialized in React, Next.JS, Tailwind CSS, and remote collaboration.',
     ],
@@ -212,8 +211,8 @@ export const experienceData = [
       'Advanced Training: Taking ALX Backend Pro Developer and Freelance Academy courses.',
     experience: [
       'Portfolio Building: Positioned for freelance and full-time global opportunities.',
-      'Side Project: Built "Property Pulse" – a renting platform focused on Addis Ababa.',
-      'MVP Delivery: Created tools for logistics, finance, and service businesses.',
+      'Side Project: Built "Property Pulse", a renting platform focused on Addis Ababa.',
+      'MVP Delivery: Built ELMS mobile app for STEM courses in Ethiopia.',
       'Mentorship: Guided peers and contributed to team projects.',
     ],
   },
