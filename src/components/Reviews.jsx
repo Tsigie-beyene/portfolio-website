@@ -29,7 +29,7 @@ export default function Reviews() {
     },[index]) 
 
   return (
-    <div id="reviews" className="my-20 px-6 md:px-4">
+    <div id="reviews" className="my-20 px-6 md:px-4 ml-[70px] md:ml-0">
         <Heading text={'Reviews'}/>
         <div className="flex flex-col items-center justify-center">
             <motion.div initial={{opacity:0, x:-200}}
@@ -43,7 +43,7 @@ export default function Reviews() {
                 {reviewsData.map((review,i) => (
                      <motion.div
                      initial={{x:'100%'}}
-                     key={i} className="absolute inset-0 flex flex-col items-center justify-center gap-y-4 border border-yellow-500 bg-zinc-50 p-4 rounded-xl dark:bg-zinc-700 transition-colors
+                     key={i} className="absolute inset-0 flex flex-col items-center justify-center gap-y-4 border border-yellow-500 bg-zinc-50 p-2 rounded-xl dark:bg-zinc-700 transition-colors
                      md:gap-y-4 md:p-5
                      lg:gap-y-7 lg:p-14"
                      ref={(el) => (slides.current.push(el))}
