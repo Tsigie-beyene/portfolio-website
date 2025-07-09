@@ -72,7 +72,7 @@ export default function Hero() {
                  > Hi </motion.span>
             </motion.div>
             <h1 className="text-3xl font-bold tracking-wider text-center text-gray-500 transition-colors dark:text-white">Hi I'm Tsigie Beyene &</h1>
-            <p className="text-lg tracking-wider text-gray-700 transition-colors dark:text-gray-200">A Passionate Full-Stack Developer 😊</p>
+            <p className="text-lg tracking-wider text-center text-gray-700 transition-colors dark:text-gray-200">A Passionate Full-Stack Developer 😊</p>
          </motion.div>
          <motion.div 
          initial={{opacity:0,y:100}}
