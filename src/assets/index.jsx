@@ -222,7 +222,7 @@ export const projectsData = [
     tech: ['FramerMotion','ReactJS', 'NextJS', 'TailwindCSS','JavaScript'],
   },
   {
-    name: 'ELMS App: Learning Management System',
+    name: 'Learning Management System',
     desc: 'Developed a mobile-first LMS for STEM courses in Ethiopia using React Native, Django REST API, and Tailwind CSS. Features include interactive lessons, quizzes, and student progress tracking for high school and elementary levels.',
     url: '/projects/LMS.png',
     tech: ['React Native', 'Python','Django','TailwindCSS'],

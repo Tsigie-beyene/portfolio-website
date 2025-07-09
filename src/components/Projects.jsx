@@ -25,7 +25,7 @@ function Projects() {
     },[index])
 
   return ( 
-    <div id="projects" className="min-h-screen py-12 px-6 sm:px-8 md:py-20">
+    <div id="projects" className="min-h-screen py-12 px-4 sm:px-8 md:py-20 ">
         <Heading text={'Projects'}/>
         <div className="flex flex-row flex-wrap justify-center gap-3 py-6 md:gap-4 md:py-10  ">
             { projectsButton
@@ -44,7 +44,7 @@ function Projects() {
               </motion.button>
             ))}
         </div>
-        <div className="flex flex-col justify-center gap-y-5 sm:flex-row sm:flex-wrap sm:gap-x-5 sm:gap-y-5 px-4">
+        <div className="flex flex-col justify-center gap-y-5 sm:flex-row sm:flex-wrap sm:gap-x-5 sm:gap-y-5 px-1">
             {projectsData.filter((project)=>{
                 return project.tech.some((item)=>(
                     tech=== 'All' ? true : item === tech
