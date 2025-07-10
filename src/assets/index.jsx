@@ -135,7 +135,7 @@ export const skillsData = [
   
   {
     name: 'PostgreSQL',
-    icon: '/skills/Postgresql.webp',
+    icon: '/skills/postgresql.webp',
   },
   {
     name: 'MongoDB',
